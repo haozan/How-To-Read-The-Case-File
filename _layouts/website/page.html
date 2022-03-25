@@ -1,0 +1,86 @@
+{% extends template.self %}
+
+
+{% block title %}
+  {% if file.path == 'README.md' %}
+    {{ config.index_title }} - {{ page.title }}
+  {% endif %}
+  {% if file.path != 'README.md' %}
+    {{ page.title }} - {{ config.title }}
+  {% endif %}
+{% endblock %}
+
+
+{% block head %}
+  {{ super() }}
+
+  <link rel="shortcut icon" href="https://www.qinglion.com/assets/favicon-7e73d37aa89e09a9e8002cd945649e6cf7c75cf48068cba1ef214295c774279a.ico" type="image/x-icon">
+
+{% endblock %}
+
+
+{% block book_sidebar %}
+    {% block book_summary %}
+      <nav>
+        <a class="book-summary-brand" href="https://www.qinglion.com/">
+          <img src="https://www.qinglion.com/assets/logo-big-3e33e2312c39fe67af08ab9b71011e8f5d1471e867887ecf96f29bc532475918.svg" alt="logo"/>
+        </a>
+        {% include "website/summary.html" %}
+      </nav>
+    {% endblock %}
+{% endblock %}
+
+
+
+{% block book_inner %}
+  {% include "website/header.html" %}
+
+  <div class="page-wrapper" role="main">
+    <div class="page-inner">
+      {% block search_results %}
+        <div id="book-search-results">
+          <div class="search-noresults">
+            <section class="normal markdown-section">
+              {% block page %}
+              {{ page.content|safe }}
+              {% endblock %}
+            </section>
+          </div>
+          <div class="search-results">
+            <div class="has-results">
+              {% block search_has_results %}
+              <h1 class="search-results-title">{{ "<span class='search-results-count'></span> 条 \"<span class='search-query'></span>\" 的搜索结果"|t|safe }}</h1>
+              <ul class="search-results-list"></ul>
+              {% endblock %}
+            </div>
+            <div class="no-results">
+              {% block search_no_results %}
+              <h1 class="search-results-title">{{ "没有 \"<span class='search-query'></span>\" 的搜索结果"|t|safe }}</h1>
+              {% endblock %}
+            </div>
+          </div>
+        </div>
+      {% endblock %}
+    </div>
+  </div>
+
+  <div class="book-footer">
+    <div class="book-footer-items">
+      <p class="copyright">COPYRIGHT © 2017-2022 ⻘狮科技</p>
+    </div>
+  </div>
+{% endblock %}
+
+
+{% block body %}
+  <nav class="navbar">
+    <div class="container">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="https://www.qinglion.com/">
+          <img src="https://www.qinglion.com/assets/logo-big-3e33e2312c39fe67af08ab9b71011e8f5d1471e867887ecf96f29bc532475918.svg" alt="logo"/>
+        </a>
+      </div>
+    </div>
+  </nav>
+  {{ super() }}
+{% endblock %}

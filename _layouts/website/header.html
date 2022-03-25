@@ -1,0 +1,16 @@
+{% block book_header %}
+  <div class="book-header" role="navigation">
+      {% if glossary.path %}
+        <a href="{{ ('/' + glossary.path)|resolveFile }}" class="btn pull-left" aria-label="{{ "GLOSSARY_OPEN"|t }}"><i class="fa fa-sort-alpha-asc"></i></a>
+      {% endif %}
+
+      {% block search_input %}
+        <div id="book-search-input" class="book-search-input" role="search">
+          <input type="text" placeholder="{{ '搜索' }}" />
+          <span class="search-icon">
+            <i class="fa fa-search"></i>
+          </span>
+        </div>
+      {% endblock %}
+  </div>
+{% endblock %}

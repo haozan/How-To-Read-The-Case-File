@@ -1,0 +1,200 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  height: 70px;
+  width: 100%;
+  background-color: #ffffff;
+  border-bottom: 1px solid #eeeeee;
+  z-index: 30;
+}
+
+.navbar > .container {
+  height: 70px;
+}
+
+.navbar .navbar-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 50px;
+}
+
+.navbar-brand {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #59b8e9;
+  float: left;
+  padding: 22.5px 15px;
+  font-size: 18px;
+  line-height: 25px;
+  height: 70px;
+  text-decoration: none;
+}
+
+.navbar-brand > img {
+  height: 40px;
+}
+
+.book-summary {
+  background: #fff !important;
+}
+
+.book-summary, .book-body {
+  margin-top: 70px;
+}
+
+.book-summary .summary a.gitbook-link {
+  display: none;
+}
+
+.page-wrapper {
+  padding-bottom: 180px;
+}
+
+.page-wrapper img {
+  border: 1px solid #eee;
+}
+
+.book-footer {
+  border-top: 1px solid #eeeeee;
+}
+
+.book-footer-items {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.book-footer-items > .copyright {
+  text-align: center;
+}
+
+.book .book-summary .summary .chapter > a > i {
+  left: 15px;
+}
+
+.book .book-summary .summary .chapter > a > i:before {
+  content: "\f107";
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: greyscale;
+  color: #8d8d8d;
+  font-size: 14px;
+}
+
+.book .book-summary .summary .chapter:not(.expanded) > a > i:before {
+  content: "\f105";
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: greyscale;
+  color: #8d8d8d;
+  font-size: 14px;
+}
+
+.book .book-summary .summary .chapter.active > a,
+.book .book-summary .summary .chapter > a:hover {
+  color: #ed1c24;
+  text-decoration: none;
+}
+
+.book-summary-brand {
+  display: none;
+}
+
+#book-search-input.book-search-input {
+  display: inline-table;
+  vertical-align: middle;
+  border: 1px solid #ccc;
+  padding: 0;
+  margin: 0;
+  border-radius: 3px;
+  background-color: #fff;
+  position: fixed;
+  right: 30px;
+  top: 19px;
+  z-index: 30;
+}
+
+#book-search-input.book-search-input > input {
+  width: 250px;
+  height: 32px;
+  box-shadow: none;
+  font-size: 14px
+}
+
+.search-icon {
+  display: table-cell;
+  padding: 8px 12px;
+}
+
+.fa {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+}
+
+.fa.fa-search:before {
+  color: #ccc;
+  content: "";
+  font-size: 14px;
+}
+
+.book-header .btn i {
+  font-size: 20px;
+}
+
+#book-search-results .search-results .has-results .search-results-item a {
+  color: #FF7300;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+@media(max-width: 600px) {
+  #book-search-input.book-search-input > input {
+    width: 150px;
+  }
+
+  .navbar {
+    display: none;
+  }
+
+  .book-summary, .book-body {
+    margin-top: 0;
+  }
+
+  .book-summary-brand {
+    padding: 22.5px 15px;
+    font-size: 18px;
+    line-height: 25px;
+    height: 70px;
+    display: block;
+  }
+
+  .book-summary-brand > img {
+    height: 40px;
+  }
+
+  .book-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    background-color: #f6f7f8;
+  }
+
+  #book-search-input.book-search-input {
+    position: inherit;
+  }
+}
+
+.book-footer p {
+  color: #555;
+}
