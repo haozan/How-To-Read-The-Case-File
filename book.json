@@ -1,0 +1,10 @@
+{
+  "language": "zh-hans",
+  "plugins": ["-fontsettings", "-lunr", "-search", "-sharing", "search-pro", "expandable-chapters", "local-video"],
+  "styles": {
+    "website": "./_assets/website/index.css"
+  },
+  "index_title": "青狮阅卷",
+  "title": "青狮阅卷",
+  "gitbook": "~> 3.2.3"
+}

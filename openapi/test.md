@@ -1,0 +1,17 @@
+#### 开发必读
+
+* [授权模式](./guide-oauth-mode.md)
+  * [平台授权](./guide-platform-oauth.md)
+    * [注册应用](./guide-platform-oauth.md#注册应用)
+    * [授权流程](./guide-platform-oauth.md#授权流程)
+    * [字段说明](./guide-platform-oauth.md#字段说明)
+    * [请求授权](./guide-platform-oauth.md#请求授权（直接访问）)
+    * [获取access_token](./guide-platform-oauth.md#获取-accesstoken)
+    * [刷新access_token](./guide-platform-oauth.md#刷新-accesstoken)
+  * [客户端授权](./guide-client-oauth.md)
+    * [授权流程](./guide-client-oauth.md#授权流程)
+    * [字段说明](./guide-client-oauth.md#字段说明)
+    * [获取access_token](./guide-client-oauth.md#获取-accesstoken)
+* [接口调用说明](./guide-api-call.md)
+* [错误码](./guide-error-code.md)
+* [事件通知](./guide-notification.md)
