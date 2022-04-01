@@ -1,6 +1,6 @@
 {
   "language": "zh-hans",
-  "plugins": ["-fontsettings", "-lunr", "-search", "-sharing", "search-pro", "expandable-chapters", "local-video","alerts"],
+  "plugins": ["-fontsettings", "-lunr", "-search", "-sharing", "search-pro", "expandable-chapters", "local-video","alerts","back-to-top-button"],
   "styles": {
     "website": "./_assets/website/index.css"
   },
