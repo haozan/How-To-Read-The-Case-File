@@ -57,7 +57,8 @@
 }
 
 .book-footer {
-  border-top: 1px solid #eeeeee;
+  border: 16px solid #201f36;
+  background-color: #201f36;
 }
 
 .book-footer-items {
@@ -172,7 +173,7 @@
   }
 
   .book-summary-brand {
-    padding: 22.5px 15px;
+    padding: 12.5px 15px;
     font-size: 18px;
     line-height: 25px;
     height: 70px;
@@ -198,5 +199,5 @@
 }
 
 .book-footer p {
-  color: #555;
+  color: #cccccc;
 }
