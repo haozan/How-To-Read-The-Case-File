@@ -1,10 +1,6 @@
 {
   "language": "zh-hans",
-<<<<<<< HEAD
-  "plugins": ["-fontsettings", "-lunr", "-search", "-sharing", "search-pro", "expandable-chapters", "local-video"],
-=======
   "plugins": ["-fontsettings", "-lunr", "-search", "-sharing", "search-pro", "expandable-chapters", "local-video","alerts","back-to-top-button"],
->>>>>>> 52490b3eacaa480ff8f2714232bf1a81d2f47945
   "styles": {
     "website": "./_assets/website/index.css"
   },

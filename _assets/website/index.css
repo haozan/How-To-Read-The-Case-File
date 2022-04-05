@@ -3,11 +3,7 @@
   top: 0;
   height: 70px;
   width: 100%;
-<<<<<<< HEAD
-  background-color: #ffffff;
-=======
   background-color: #201f36;
->>>>>>> 52490b3eacaa480ff8f2714232bf1a81d2f47945
   border-bottom: 1px solid #eeeeee;
   z-index: 30;
 }
@@ -61,12 +57,8 @@
 }
 
 .book-footer {
-<<<<<<< HEAD
-  border-top: 1px solid #eeeeee;
-=======
   border: 16px solid #201f36;
   background-color: #201f36;
->>>>>>> 52490b3eacaa480ff8f2714232bf1a81d2f47945
 }
 
 .book-footer-items {
@@ -108,20 +100,14 @@
 
 .book .book-summary .summary .chapter.active > a,
 .book .book-summary .summary .chapter > a:hover {
-<<<<<<< HEAD
-  color: #ed1c24;
-=======
+
   color: #3bb8af;
->>>>>>> 52490b3eacaa480ff8f2714232bf1a81d2f47945
   text-decoration: none;
 }
 
 .book-summary-brand {
   display: none;
-<<<<<<< HEAD
-=======
   background-color: #201f36;
->>>>>>> 52490b3eacaa480ff8f2714232bf1a81d2f47945
 }
 
 #book-search-input.book-search-input {
@@ -188,11 +174,7 @@
   }
 
   .book-summary-brand {
-<<<<<<< HEAD
-    padding: 22.5px 15px;
-=======
     padding: 12.5px 15px;
->>>>>>> 52490b3eacaa480ff8f2714232bf1a81d2f47945
     font-size: 18px;
     line-height: 25px;
     height: 70px;
@@ -208,12 +190,8 @@
     align-items: center;
     justify-content: space-between;
     flex-direction: row-reverse;
-<<<<<<< HEAD
-    background-color: #f6f7f8;
-=======
     background-color: #201f36;
     height: 70px;
->>>>>>> 52490b3eacaa480ff8f2714232bf1a81d2f47945
   }
 
   #book-search-input.book-search-input {
@@ -222,9 +200,6 @@
 }
 
 .book-footer p {
-<<<<<<< HEAD
-  color: #555;
-=======
   color: #cccccc;
 }
 
@@ -232,5 +207,4 @@
 .video-js {
     width:100%;
     height: 100%;
->>>>>>> 52490b3eacaa480ff8f2714232bf1a81d2f47945
 }
