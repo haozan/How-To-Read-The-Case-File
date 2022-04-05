@@ -1,11 +1,13 @@
-## 青狮阅卷
+# 使用说明
 
-#### 添加mp4链接视频
+## 问：如何高效入门青狮阅卷？
+
+### 视频
 
 
 <video id="my-video" class="video-js" controls preload="auto" width="100%"
-poster="http://r9neyyvo2.hn-bkt.clouddn.com/001.png" data-setup='{"aspectRatio":"16:9"}'>
-<source src="http://r9neyyvo2.hn-bkt.clouddn.com/test-video.mp4" type='video/mp4' >
+poster="https://ipic.qinglion.com/20220405.png" data-setup='{"aspectRatio":"16:9"}'>
+<source src="https://ipic.qinglion.com/20220405.mov" type='video/mp4' >
 </video>
 
 Info styling
