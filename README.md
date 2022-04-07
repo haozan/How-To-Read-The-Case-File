@@ -1,31 +1,22 @@
-# 使用说明
+## 关于帮助中心
 
-## 问：如何高效入门青狮阅卷？
+这里是青狮阅卷帮助中心。
+
+你在使用青狮阅卷过程中，遇到的任何问题，都可以在这里找到满意的答案。
 
 ### 视频
 
+### 图文
 
-<video id="my-video" class="video-js" controls preload="auto" width="100%"
-poster="https://ipic.qinglion.com/20220405.png" data-setup='{"aspectRatio":"16:9"}'>
-<source src="https://ipic.qinglion.com/20220405.mov" type='video/mp4' >
-</video>
 
-Info styling
-> **[info] For info**
->
-> Use this for infomation messages.
+方法 1：用【目录】精准定位问题
 
-Warning styling
-> **[warning] For warning**
->
-> Use this for warning messages.
+你可以通过
 
-Danger styling
-> **[danger] For danger**
->
-> Use this for danger messages.
 
-Success styling
-> **[success] For info**
->
-> Use this for success messages.
+
+方法 2：用【搜索】快速定位问题
+
+
+
+方法 3：直接扫码联系镐赞律师
