@@ -6,6 +6,11 @@
 
 ### 视频
 
+<video id="my-video" class="video-js" controls preload="auto" width="100%"
+poster="https://ipic.qinglion.com/20220407_help.jpeg" data-setup='{"aspectRatio":"16:9"}'>
+<source src="https://ipic.qinglion.com/20220407_help.mp4" type='video/mp4' >
+</video>
+
 ### 图文
 
 
